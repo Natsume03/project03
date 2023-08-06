@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="原神攻略サイト">
+    <title>project03</title>
+    <!--リセットCSS-->
+    <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--googlefonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <img id="topimg" src="images/homebg.jpg" alt="トップ画面">
+    <!--ページヘッダー-->
+    <header>
+        <!--ロゴ-->
+        <div id="logo"><a href="index.html">原神攻略</a></div>
+        <!--ロゴ下カテゴリー-->
+        <!--ロゴ下カテゴリーを横並びにするための箱 div id="flexbox" やで-->
+        <div id="flexbox">
+            <a href="html/event.html">イベント</a>
+            <a href="html/kigan.html">祈願</a>
+            <a href="html/rasen.html">深境螺旋</a>
+            <a href="html/officialinfo.html">公式リンク</a>
+        </div>
+    </header>
+    <!--記事-->
+    <!--記事載せる空間の div id=space やで-->
+    <div id="space">
+        <h1>お知らせ</h1>
+        <article>
+            <header>
+                <h2>スターライト・ダスト交換更新</h2>
+                <h2 class="time">2023.08.01</h2>
+            </header>
+            <img src="images/kigan/vr3.8/8月スターライト.png" alt="スターライト交換">
+            <p>8月1日よりスターライト交換が更新されましたのでお知らせします。</p>
+            <p>今月のスターライト交換キャラは北斗とノエルとなっています。また、スターライト交換武器は旧貴族シリーズです。</p>
+            <p>スターダスト交換もリセットされていますので、紡がれた運命(5個)と出会いの縁(5個)の交換をお忘れなく。</p>
+        </article>
+        <article>
+            <header>
+                <h2>深境螺旋更新</h2>
+                <h2 class="time">2023.08.01</h2>
+            </header>
+            <img src="images/rasen/2023年7月後半/螺旋202308前半イベント.png" alt="深境螺旋">
+            <p>8月1日より螺旋が更新されましたのでお知らせします。</p>
+            <p>なお敵は前回のものから変更はありません。</p>
+            <p>螺旋の最新情報は<a href="html/rasen.html">こちら</a>から確認できます。</p>
+        </article>
+    </div>
+</body>
+
+</html>
