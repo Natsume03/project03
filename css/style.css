@@ -116,3 +116,10 @@ p a:hover {
     color: rgb(0, 255, 0);
     border-bottom: solid rgb(0, 255, 0);
 }
+
+@media (max-width:600px) {
+    #flexbox a {
+        font-size: 1.3rem;
+        padding: 15px 5px;
+    }
+}
