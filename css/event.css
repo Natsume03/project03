@@ -38,8 +38,8 @@ img#topimg {
 }
 
 #flexbox a {
-    font-size: 2.4rem;
-    padding: 15px 50px;
+    font-size: 3rem;
+    padding: 10px 50px;
 }
 
 /*ロゴ下カテゴリーが押されたときの色*/
@@ -83,7 +83,7 @@ h3 {
 .eventinfolink {
     background-color: green;
     width: 40%;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 /*文章の文字サイズ*/
