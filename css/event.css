@@ -82,7 +82,6 @@ h3 {
 /*イベント詳細情報の背景色、背景幅用class*/
 .eventinfolink {
     background-color: green;
-    width: 40%;
     margin-bottom: 50px;
 }
 

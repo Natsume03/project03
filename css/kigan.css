@@ -71,7 +71,6 @@ h2 {
     font-size: 2.5rem;
     border-bottom: orange solid;
     margin-bottom: 10px;
-    width: 31%;
 }
 
 /*イベント祈願期間*/
@@ -84,14 +83,12 @@ h2 {
 .star5 {
     border-bottom: solid yellow;
     color: yellow;
-    width: 18%;
 }
 
 /*星4★★★★*/
 .star4 {
-    border-bottom: solid yellow;
-    color: yellow;
-    width: 16.5%;
+    border-bottom: solid purple;
+    color: purple;
 }
 
 /*祈願名、キャラ名*/
