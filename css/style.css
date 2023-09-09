@@ -21,7 +21,7 @@ img#topimg {
 /*ロゴ*/
 #logo {
     text-align: center;
-    background-color: green;
+    background-color: darkorange;
 }
 
 #logo a {
@@ -33,7 +33,7 @@ img#topimg {
 #flexbox {
     display: flex;
     justify-content: center;
-    background-color: green;
+    background-color: darkorange;
 }
 
 #flexbox a {
@@ -43,14 +43,14 @@ img#topimg {
 
 /*ロゴ下カテゴリーが押されたときの色*/
 #flexbox a:hover {
-    background-color: rgb(47, 255, 0);
+    background-color: orangered;
 }
 
 /*記事とか諸々載せる空間*/
 #space {
     width: 80%;
     margin: 0% 10%;
-    border: 4px green solid;
+    border: 4px darkorange solid;
     padding: 20px;
     border-top: none;
     padding-top: 0px;
@@ -61,7 +61,7 @@ h1 {
     text-align: center;
     font-size: 5rem;
     padding-top: 50px;
-    color: green;
+    color: darkorange;
 }
 
 /*↑---------------------------ここまで全ページ共通項目----------------------------------------↑*/
@@ -85,7 +85,7 @@ article header {
 
 /*見出し*/
 h2 {
-    border-bottom: solid green 5px;
+    border-bottom: solid darkorange 5px;
     margin-bottom: 20px;
     font-size: 2.5rem;
 }
@@ -94,7 +94,7 @@ h2 {
 .time {
     font-size: 1.8rem;
     border-style: none;
-    color: green;
+    color: darkorange;
 }
 
 /*記事画像*/
@@ -108,17 +108,17 @@ p {
 
 /*記事中のリンク色*/
 p a {
-    color: green;
-    border-bottom: solid green;
+    color: darkorange;
+    border-bottom: solid darkorange;
 }
 
 p a:hover {
-    color: rgb(0, 255, 0);
-    border-bottom: solid rgb(0, 255, 0);
+    color: orangered;
+    border-bottom: solid orangered;
 }
 
 #formobile a {
-    color: green;
+    color: orange;
 }
 
 #formobile {

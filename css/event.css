@@ -21,7 +21,7 @@ img#topimg {
 
 /*原神攻略の文字*/
 #logo {
-    background-color: green;
+    background-color: darkorange;
     text-align: center;
 }
 
@@ -34,7 +34,7 @@ img#topimg {
 #flexbox {
     display: flex;
     justify-content: center;
-    background-color: green;
+    background-color: darkorange;
 }
 
 #flexbox a {
@@ -44,14 +44,14 @@ img#topimg {
 
 /*ロゴ下カテゴリーが押されたときの色*/
 #flexbox a:hover {
-    background-color: rgb(47, 255, 0);
+    background-color: orangered;
 }
 
 /*記事とか諸々載せる空間*/
 #space {
     width: 80%;
     margin: 0% 10%;
-    border: 4px green solid;
+    border: 4px darkorange solid;
     padding: 20px;
     border-top: none;
     padding-top: 0px;
@@ -62,7 +62,7 @@ h1 {
     text-align: center;
     font-size: 5rem;
     padding-top: 50px;
-    color: green;
+    color: darkorange;
 }
 
 /*↑---------------------------ここまで全ページ共通項目----------------------------------------↑*/
@@ -70,18 +70,18 @@ h1 {
 /*↓----------------------------ここからページごとのCSS------------------------------------------↓*/
 h2 {
     font-size: 2.5rem;
-    border-bottom: green solid;
+    border-bottom: darkorange solid;
     margin-bottom: 10px;
 }
 
 h3 {
-    color: green;
+    color: darkorange;
     font-size: 1.8rem;
 }
 
 /*イベント詳細情報の背景色、背景幅用class*/
 .eventinfolink {
-    background-color: green;
+    background-color: darkorange;
     margin-bottom: 50px;
 }
 
